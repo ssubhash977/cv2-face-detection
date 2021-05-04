@@ -29,8 +29,8 @@ while run:
 
     # Display
     #cv2.imshow('img', img)
-    frame = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-	FRAME_WINDOW.image(frame)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    FRAME_WINDOW.image(img)
 
     # Stop if escape key is pressed
     
